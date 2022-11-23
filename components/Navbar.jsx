@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Logo from '../public/assets/images/Logo.png'
+import {AiOutlineClose} from 'react-icons/ai'
 
 const Navbar = () => {
   return (
@@ -33,11 +34,13 @@ const Navbar = () => {
                  <li className="ml-10 text-sm uppercase hover:border-b">Contact</li> 
                 </Link>
             </ul>
-        </div>
 
-        
+            <div>
+                <AiOutlineClose/>
+            </div>
+
         </div>
-        
+        </div>
     </div>
   )
 }
