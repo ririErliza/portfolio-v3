@@ -9,12 +9,12 @@ const Navbar = () => {
     const [nav, setNav]= useState(false)
 
     const handleNav = () =>{
-        setNav(true)
+        setNav(!nav)
     }
 
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
-        <div className="flex justify-between items-center w-full h-full px-2
+        <div className="flex justify-between items-center w-full h-full px-4
         2xl:px-16">
             <Image src={Logo} alt='' width='123' height='50'/>
 
@@ -42,15 +42,23 @@ const Navbar = () => {
                 </Link>
             </ul>
 
-            <div onClick={handleNav} className='md:hidden'>
+            <div onClick={handleNav} className='md:hidden cursor-pointer'>
                 
                 <AiOutlineMenu size={25}/>
             </div>
         </div>
         </div>
 
-        <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
-            <div className="fixed flex flex-col justify-between left-0 top-0 w-[75%] sm:w-[60%] m:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500">
+
+
+        <div className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ''}>
+            <div className={nav? 
+            "fixed flex flex-col justify-between left-0 top-0 w-[75%] sm:w-[60%] m:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+            :
+            "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+            }>
+
+                {/* top */}
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Image src={Logo} alt='/' width='97' height='45'/>
@@ -58,13 +66,10 @@ const Navbar = () => {
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                         <AiOutlineClose/>
                         </div>
-
-
                     </div>
-
-    
                 </div>
 
+                {/* middle */}
                 <div className='py-4 flex flex-col'>
                     <ul className='uppercase'>
                         <Link href='/'>
@@ -88,7 +93,12 @@ const Navbar = () => {
                         </Link>
                     </ul>
 
-                    <div className="pt-40">
+                    
+                </div>
+
+                {/* bottom */}
+
+                <div>
                         <p className='uppercase tracking-widest text-[#5651e5]'>Let´s connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
@@ -109,7 +119,6 @@ const Navbar = () => {
                             
                         </div>
                     </div>
-                </div>
 
             </div>
 
