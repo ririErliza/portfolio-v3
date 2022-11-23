@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
 
             <div className='md:hidden'>
-                <AiOutlineClose/>
+                
                 <AiOutlineMenu size={25}/>
             </div>
         </div>
@@ -45,8 +45,45 @@ const Navbar = () => {
         <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
             <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] m:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500">
                 <div>
-                    <Image src={Logo} alt='/' width='87' height='35'/>
+                    <div className='flex w-full items-center justify-between'>
+                        <Image src={Logo} alt='/' width='97' height='45'/>
+
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+                        <AiOutlineClose/>
+                        </div>
+                    </div>
+
+    
                 </div>
+
+                <div className='py-4 flex flex-col'>
+                    <ul className='uppercase'>
+                        <Link href='/'>
+                            <li className='py-4 text-sm'>Home</li>
+                        </Link>
+
+                        <Link href='/'>
+                            <li className='py-4 text-sm'>About</li>
+                        </Link>
+
+                        <Link href='/'>
+                            <li className='py-4 text-sm'>Skills</li>
+                        </Link>
+
+                        <Link href='/'>
+                            <li className='py-4 text-sm'>Projects</li>
+                        </Link>
+
+                        <Link href='/'>
+                            <li className='py-4 text-sm'>Contact</li>
+                        </Link>
+                    </ul>
+
+                    <div className="pt-40">
+                        <p className='uppercase tracking-widest text-[#5651e5]'>Let´s connect</p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
