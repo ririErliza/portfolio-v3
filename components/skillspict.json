@@ -1,0 +1,89 @@
+[
+    {
+      "id": 0,
+      "name": "HTML",
+      "image": "/assets/skills/1.png"
+
+    },
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "image": "/assets/skills/2.png"
+  
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "image": "/assets/skills/3.png"
+  
+    },
+    {
+        "id": 3,
+        "name": "Bootstrap",
+        "image": "/assets/skills/4.png"
+  
+    },
+    {
+        "id": 4,
+        "name": "Node JS",
+        "image": "/assets/skills/5.png"
+  
+    },
+    {
+        "id": 5,
+        "name": "React JS",
+        "image": "/assets/skills/6.png"
+  
+    },
+    {
+        "id": 6,
+        "name": "Mongo DB",
+        "image": "/assets/skills/7.png"
+  
+    },
+    {
+        "id": 7,
+        "name": "Next JS",
+        "image": "/assets/skills/8.png"
+  
+    },
+    {
+        "id": 8,
+        "name": "MaterialUI",
+        "image": "/assets/skills/9.png"
+  
+    },
+    {
+        "id": 9,
+        "name": "Figma",
+        "image": "/assets/skills/10.png"
+  
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "image": "/assets/skills/11.png"
+  
+    },
+    {
+        "id": 11,
+        "name": "GitHub",
+        "image": "/assets/skills/12.png"
+  
+    },
+    {
+        "id": 12,
+        "name": "Postman",
+        "image": "/assets/skills/13.png"
+  
+    },
+    {
+        "id": 13,
+        "name": "TailwindCSS",
+        "image": "/assets/skills/14.png"
+  
+    }
+
+
+
+]
