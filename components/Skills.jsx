@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Skill1 from '../public/assets/skills/1.png'
-import Skillspict from './skillspict.json';
+import Skillspict from '../public/skillspict.json';
 
 const Skills = () => {
   return (
