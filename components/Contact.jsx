@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full  p-4'>
                     <div className="lg:p-4">
                         <div>
-                            <Image className='rounded-xl hover:scale-105' src={phone} alt='/' height={300}/>
+                            <Image className='rounded-xl hover:scale-105' src={phone} alt='/'/>
                         </div>
                     </div>
                 </div>

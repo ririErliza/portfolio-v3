@@ -1,16 +1,28 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Logo from '../public/assets/images/Logo.png'
 import {AiOutlineClose,AiOutlineMenu, AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 const Navbar = () => {
     const [nav, setNav]= useState(false)
+    const [shadow,setShadow] = useState(false)
 
     const handleNav = () =>{
         setNav(!nav)
     }
+
+    useEffect(()=>{
+        const handleShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadow(true);
+            } else {
+                setShadow(false);
+            }
+        };
+        window.addEventListener('scroll',handleShadow)
+    },[])
 
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]">
