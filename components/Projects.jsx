@@ -13,7 +13,7 @@ const Projects = () => {
             <div className="grid md:grid-cols-2 gap-8">
 
                 
-            <ProjectItem title='NGO Web App' bgImg={img1} projectUrl='/ngoweb'/>
+            <ProjectItem title='NGO Web App' bgImg={img1} projectUrl='/reviverngo'/>
             <ProjectItem title='NGO Admin Panel' bgImg={img2} projectUrl='/ngoadmin'/>
             <ProjectItem title='Merchandise Shop' bgImg={img3} projectUrl='/shop'/>
             </div>
