@@ -17,14 +17,14 @@ const Main = () => {
             <div>
                 <div className='flex justify-center mt-20'>
                     <div className='relative'>
-                        <Image className='image' src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
+                        <Image src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
 
-                        <div className='iconSkills'>
-                            <AiFillHtml5 size={35} className='absolute text-[#4656e4] top-20 left-0'/>
-                            <IoLogoCss3 size={35}className='absolute text-[#4656e4] top-20 right-0'/>
-                            <DiJavascript1 size={35}className='absolute text-[#4656e4] top-0 left-10'/>
-                            <GrNode size={35} className='absolute text-[#4656e4] top-0 right-10'/>
-                            <HiDatabase size={35} className='absolute text-[#4656e4] left-20'/>
+                        <div className='h-100%'>
+                            <AiFillHtml5 size={20} className='animate-spin absolute text-[#4656e4] top-20 left-0'/>
+                            <IoLogoCss3 size={20}className='animate-spin absolute text-[#4656e4] top-20 right-20'/>
+                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4] top-10 left-10'/>
+                            <GrNode size={20} className='animate-spin absolute text-[#4656e4] top-10 right-20'/>
+                            <HiDatabase size={20} className='animate-spin absolute text-[#4656e4] left-10'/>
 
                         </div>
                     </div>
