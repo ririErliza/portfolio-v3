@@ -6,6 +6,8 @@ html{
   scroll-behavior:smooth;
 }
 
+
+
 /* create global css */
 @layer base{
   body {

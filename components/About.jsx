@@ -4,7 +4,7 @@ import MyPict from '../public/assets/images/Hero.png'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-4 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen px-10 flex items-center py-16'>
                 
         <div className='max-w-[1240] m-auto md:grid grid-cols-3 gap-8'>
                 

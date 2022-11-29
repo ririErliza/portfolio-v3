@@ -5,7 +5,7 @@ import Skillspict from '../public/skillspict.json';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full md:h-screen p-4 flex items-center py-16'>
+    <div id='skills' className='w-full md:h-screen px-10 flex items-center py-16'>
         <div className='max-w-[1240] mx-auto flex flex-col justify-center h-full'>
             <div>
             <p className='text-center text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
