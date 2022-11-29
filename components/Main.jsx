@@ -20,16 +20,19 @@ const Main = () => {
                         <Image src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
 
                         <div className='h-100%'>
-                            <AiFillHtml5 size={20} className='animate-spin absolute text-[#4656e4] top-20 left-0'/>
-                            <IoLogoCss3 size={20}className='animate-spin absolute text-[#4656e4] top-20 right-20'/>
-                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4] top-10 left-10'/>
-                            <GrNode size={20} className='animate-spin absolute text-[#4656e4] top-10 right-20'/>
-                            <HiDatabase size={20} className='animate-spin absolute text-[#4656e4] left-10'/>
+                            <AiFillHtml5 size={20} className='animate-ping absolute text-[#4656e4] top-10 left-0'/>
+                            <IoLogoCss3 size={20}className='animate-ping absolute text-[#4656e4] top-10 right-0'/>
+                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4]  top-0 left-10'/>
+                            <GrNode size={20} className='animate-spin absolute text-[#4656e4] bottom-0 right-5'/>
+                            <HiDatabase size={20} className='animate-ping absolute text-[#4656e4] left-10'/>
+                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4] bottom-0 left-0'/>
+                        
 
                         </div>
                     </div>
                     
                 </div>
+                
                 <h1 className='mt-5 py-4 text-gray-700'>Hello, I am <span className='text-[#4656e4]'>Erliza</span></h1>
                 <h1 className='py-2 text-gray-700'>Full-Stack Developer</h1>
                 <p className="py-4 text-gray-600 max-w-[75%] m-auto">I can work for frontend and backend development in creating websites and web applications.</p>
@@ -53,6 +56,7 @@ const Main = () => {
             
             </div>
         </div>
+ 
     </div>
   )
 }
