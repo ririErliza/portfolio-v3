@@ -17,18 +17,17 @@ const Main = () => {
             <div>
                 <div className='flex justify-center mt-20'>
                     <div className='relative'>
-                        <Image src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
-
-                        <div className='h-100%'>
-                            <AiFillHtml5 size={20} className='animate-ping absolute text-[#4656e4] top-10 left-0'/>
-                            <IoLogoCss3 size={20}className='animate-ping absolute text-[#4656e4] top-10 right-0'/>
-                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4]  top-0 left-10'/>
-                            <GrNode size={20} className='animate-spin absolute text-[#4656e4] bottom-0 right-5'/>
-                            <HiDatabase size={20} className='animate-ping absolute text-[#4656e4] left-10'/>
-                            <DiJavascript1 size={20}className='animate-spin absolute text-[#4656e4] bottom-0 left-0'/>
                         
 
+                        <div className='h-100%'>
+                            <AiFillHtml5 size={20} className='absolute text-[#4656e4] top-0 left-[42%]'/>
+                            <IoLogoCss3 size={20}className='absolute text-[#4656e4] top-[25%] right-0'/>
+                            <DiJavascript1 size={20}className='absolute text-[#4656e4]  top-[70%] left-[70%]'/>
+                            <GrNode size={20} className='absolute text-[#4656e4] top-[25%] left-0'/>
+                            <HiDatabase size={20} className='absolute text-[#4656e4] top-[70%] left-[10%]'/>
                         </div>
+
+                        <Image className='absolute top-[50%] left-[50%]' src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
                     </div>
                     
                 </div>
