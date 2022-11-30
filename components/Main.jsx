@@ -15,10 +15,11 @@ const Main = () => {
     <div id='home' className="w-full h-screen text-center">
         <div className="max-w-[1240] w-full h-full mx-auto px-10 flex justify-center items-center">
             <div>
-            
-                    <div className='relative w-[500px] h-[500px]'>
+                <div className='flex justify-center mt-20'>
+                    <div className='relative'>
                         
-                        <div className='h-full'>
+
+                        <div className='h-100%'>
                             <AiFillHtml5 size={20} className='absolute text-[#4656e4] top-0 left-[42%]'/>
                             <IoLogoCss3 size={20}className='absolute text-[#4656e4] top-[25%] right-0'/>
                             <DiJavascript1 size={20}className='absolute text-[#4656e4]  top-[70%] left-[70%]'/>
@@ -26,10 +27,10 @@ const Main = () => {
                             <HiDatabase size={20} className='absolute text-[#4656e4] top-[70%] left-[10%]'/>
                         </div>
 
-                        <Image className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]' src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
+                        <Image src={MyPict} alt='/' objectFit='cover' width={200} height={100}/>
                     </div>
                     
-          
+                </div>
                 
                 <h1 className='mt-5 py-4 text-gray-700'>Hello, I am <span className='text-[#4656e4]'>Erliza</span></h1>
                 <h1 className='py-2 text-gray-700'>Full-Stack Developer</h1>
